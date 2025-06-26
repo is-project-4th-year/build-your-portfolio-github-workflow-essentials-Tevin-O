@@ -1,7 +1,17 @@
+// Filter team members
+const filterInput = document.getElementById('team-filter');
+const members = document.querySelectorAll('.team-member');
 
-const toggle = document.querySelector('.nav-toggle');
-const links  = document.querySelector('.nav-links');
+if (filterInput) {
+  filterInput.addEventListener('input', () => {
+    const keyword = filterInput.value.toLowerCase();
 
-toggle.addEventListener('click', () => {
-  links.classList.toggle('nav-open');
-});
+    members.forEach(member => {
+      const name = member.querySelector('h3').textContent.toLowerCase();
+      const role = member.querySelector('p').textContent.toLowerCase();
+      const match = name.includes(keyword) || role.includes(keyword);
+
+      member.style.display = match ? 'block' : 'none';
+    });
+  });
+}
