@@ -235,3 +235,39 @@ body {
   border: 1px solid #ccc;
   border-radius: 0.3rem;
 }
+
+/* ------------------------------------
+   Contact Section (Feature 7)
+------------------------------------ */
+.contact-section {
+  padding: 4rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+}
