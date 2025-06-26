@@ -271,3 +271,11 @@ form textarea {
   border: 1px solid #ccc;
   border-radius: 0.3rem;
 }
+
+/* Form Validation (Feature 8) */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
