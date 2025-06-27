@@ -7,7 +7,15 @@
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**: https://Tevin-O.github.io/build-your-portfolio-github-workflow-essentials-Tevin-O/
+- **GitHub Pages URL**: https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Tevin-O/
+
+### Website Screenshots
+
+![Home Page Screenshot](assets/images/home-page.png)  
+*This is the homepage of my portfolio, showing the hero section and navigation.*
+
+![Projects Page Screenshot](assets/images/team-section.png)  
+*This shows the Projects section with the team profiles grid and filter in action.*
 
 ## 3. Learnings from the Git Crash Program
 
@@ -35,10 +43,34 @@
 
 ### A. Milestones and Issues
 
+![Milestones and Issues overview](assets/images/milestones.png)
+*This shows the Milestones page with each Milestone’s progress bar and the list of related issues.*
+
+---
+
 ### B. Project Board
+
+![Project Board Kanban view](assets/images/project-board.png)
+*My Project Board with columns “To Do”, “In Progress”, and “Done”, showing how issues move through stages.*
+
+---
 
 ### C. Branching
 
+![Branches list](assets/images/branches.png)
+*Screenshot of all feature branches named using the `feature/<issue>-<desc>` convention.*
+
+---
+
 ### D. Pull Requests
 
+![Pull Request example](assets/images/pull-request.png)
+*An example of a merged Pull Request that references and closes its issue via `Closes #5`.*
+
+---
+
+
 ### E. Merge Conflict Resolution
+
+![Merge Conflict UI](assets/images/merge-conflict.png)
+*This is the GitHub UI for resolving a merge conflict, where I chose which lines to keep before merging.*
