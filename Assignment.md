@@ -30,3 +30,15 @@
    - **Expectation 👀**: Felt like project management overkill.  
    - **Reality 😅**: Breaking “Landing page” into tasks (header, hero, footer) kept me focused.  
    - **Impact 💡**: No feature was forgotten, and I saw real progress on my board.
+
+## 4. Screenshots of Key GitHub Features
+
+### A. Milestones and Issues
+
+### B. Project Board
+
+### C. Branching
+
+### D. Pull Requests
+
+### E. Merge Conflict Resolution
